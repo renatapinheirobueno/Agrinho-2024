@@ -9,13 +9,58 @@
 </head>
 
 <body>
-  <h1>Trajeto do alimento do campo à cidade</h1>
+  <header>
+        <h1>Controle de Pragas</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <p>A viagem dos alimentos do campo para a cidade é crucial para a segurança alimentar nas cidades, mas é um processo complexo e desafiante.</p>
-  
-  <p>Os agricultores cultivam alimentos no campo usando práticas agrícolas modernas e tecnologia avançada. Após a colheita, os alimentos passam por etapas pós-colheita, como limpeza, triagem e armazenamento para manter a qualidade. O transporte para a cidade é feito por uma infraestrutura complexa, que inclui caminhões frigoríficos e até transporte aéreo. Na cidade, os alimentos são distribuídos de maneira uniforme e fácil em diferentes lojas, como supermercados e feiras livres.</p>
-  
-  <p>Além disso, as políticas nacionais e as regulamentações governamentais desempenham um papel fundamental neste processo, criando padrões de qualidade e segurança alimentar.</p>   
+    <section id="pragas">
+        <h2>O que são pragas?</h2>
+
+        <div class="praga"><img width="250" src="praga.png"></div>
+        
+        <p>São organismos que causam danos às plantas, animais e até estruturas humanas. Eles podem ser insetos, vírus, fungos, bactérias, ervas orgânicas e outros tipos de seres vivos que prejudicam as atividades humanas, especialmente na agricultura e na pecuária.</p>
+    </section>
+    
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma empresa especializada no controle de pragas, garantindo manter os ambientes mais seguros e saudáveis.</p>
+    </section>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Controle de Insetos</li>
+            <li>Controle de Roedores</li>
+            <li>Desinfecção de Ambientes</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+    <div class="footer">
+      <div class="logo"><img width="250" src="logo.png"></div>
   
   <script src="script.js"></script>
 </body>
